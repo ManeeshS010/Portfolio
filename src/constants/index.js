@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    prisma,
+    docker
 } from "../assets/icons";
 
 export const skills = [
@@ -62,16 +64,7 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
+
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -93,11 +86,6 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -106,6 +94,16 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Backend"
+
+    }, {
+        imageUrl: prisma,
+        name: "Prisma",
+        type: "Database",
     }
 ];
 
